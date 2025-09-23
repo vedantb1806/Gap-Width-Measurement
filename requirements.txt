@@ -1,7 +1,5 @@
-opencv-python-headless==4.9.0.80
-streamlit-webrtc==0.47.1
-av==11.0.0
-numpy== 1.26.4
-twilio~=8.13.0
-pydub==0.25.1
-matplotlib
+streamlit==1.37.1
+streamlit-webrtc==0.47.0
+opencv-python-headless==4.8.1.78
+numpy==1.26.4
+twilio==8.10.0
