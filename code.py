@@ -15,9 +15,6 @@ from streamlit_webrtc import webrtc_streamer
 from sample_utils.download import download_file
 from sample_utils.turn import get_ice_servers
 
-address = "http://192.168.1.2:4747/video"
-video.open = (address)
-
 logger = logging.getLogger(__name__)
 
 st.title("Width Measurement")
