@@ -5,7 +5,7 @@ import numpy as np
 st.title("Width Measurement via DroidCam")
  
 # Replace with your DroidCam IP stream URL
-ip_camera_url = "http://192.168.1.16:4747/video"  # Update this with your phone's IP
+ip_camera_url = "http://192.168.1.3:8080/video"  # Update this with your phone's IP
  
 # Open the video stream
 cap = cv2.VideoCapture(ip_camera_url)
